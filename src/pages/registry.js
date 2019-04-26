@@ -11,6 +11,7 @@ const Registry = ({ data }) => (
       <Title as="h2" size="large">
         {data.registryJson.title}
       </Title>
+      <h2 style={{ textAlign: 'center' }}>Coming soon!</h2>
       {/* <div
         dangerouslySetInnerHTML={{
           __html: data.registryJson.content.childMarkdownRemark.html,

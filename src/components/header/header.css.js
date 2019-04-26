@@ -38,5 +38,9 @@ export const LogoLink = styled(Link)`
     font-size: 1.5rem;
     font-weight: 800;
     letter-spacing: 0.1em;
+
+    @media (max-width: 600px) {
+      display: none;
+    }
   }
 `;

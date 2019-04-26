@@ -1,5 +1,6 @@
 import { createGlobalStyle } from 'styled-components';
 import { accent } from 'constants/theme';
+import menuCSS from './menu.css';
 
 export default createGlobalStyle`
   html, body, div, span, applet, object, iframe,
@@ -86,5 +87,9 @@ export default createGlobalStyle`
 
   p {
     margin-bottom: 2rem;
+  }
+
+  @media (max-width: 600px) {
+    ${menuCSS}
   }
 `;

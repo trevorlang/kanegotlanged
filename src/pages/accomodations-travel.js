@@ -11,6 +11,7 @@ const AccomodationsTravel = ({ data }) => (
       <Title as="h2" size="large">
         {data.accomodationsTravelJson.title}
       </Title>
+      <h2 style={{ textAlign: 'center' }}>Coming soon!</h2>
       {/* <div
         dangerouslySetInnerHTML={{
           __html: data.accomodationsTravelJson.content.childMarkdownRemark.html,

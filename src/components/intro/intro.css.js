@@ -38,7 +38,7 @@ export const PrimaryTop = styled.span`
   font-size: 1.5rem;
 
   @media (min-width: 500px) {
-    font-size: 2.75rem;
+    font-size: 2.5rem;
   }
 
   @media (min-width: 800px) {
