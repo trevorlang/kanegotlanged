@@ -13,6 +13,7 @@ export const Container = styled.div`
   justify-content: center;
   background-color: #3b254c;
   background-image: url(${img});
+  background-position: center center;
   z-index: -1;
 `;
 
@@ -23,7 +24,7 @@ export const InnerContainer = styled.span`
   bottom: 0;
   right: 0;
   margin: 1.75rem;
-  border: 3px solid #cfa562;
+  border: 4px solid #cfa562
   z-index: 1;
 `;
 
@@ -35,14 +36,14 @@ export const PrimaryTop = styled.span`
   text-transform: uppercase;
   text-align: center;
   letter-spacing: 0.1em;
-  font-size: 1.5rem;
+  font-size: 6.5vw;
 
   @media (min-width: 500px) {
     font-size: 2.5rem;
   }
 
   @media (min-width: 800px) {
-    font-size: 4.5rem;
+    font-size: 4rem;
   }
 `;
 
@@ -55,26 +56,31 @@ export const PrimaryBottom = styled.span`
   text-transform: uppercase;
   text-align: center;
   letter-spacing: 0.1em;
+  font-size: 4.5vw;
 
   @media (min-width: 500px) {
     font-size: 1.75rem;
   }
 
   @media (min-width: 800px) {
-    font-size: 3rem;
+    font-size: 2.75rem;
   }
 `;
 
 export const Secondary = styled.span`
   font-family: 'Crimson Text', serif;
   color: #fff;
-  font-size: 1em;
+  font-size: 4vw;
 
   @media (min-width: 500px) {
     font-size: 1.5rem;
   }
 
   @media (min-width: 800px) {
-    font-size: 2rem;
+    font-size: 1.75rem;
+  }
+
+  .bullet {
+    margin: 0 0.75rem;
   }
 `;
