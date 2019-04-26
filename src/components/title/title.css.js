@@ -13,15 +13,7 @@ export const Text = styled.span`
   font-weight: 300;
 
   ${MEDIA.MIN_TABLET`
-<<<<<<< HEAD
-<<<<<<< HEAD
     font-size: 2.25rem;
-=======
-    font-size: 3rem;
->>>>>>> Fixing horizontal scroll
-=======
-    font-size: 2.25rem;
->>>>>>> Changing title size
     font-weight: 100;
   `};
 `;
