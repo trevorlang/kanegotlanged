@@ -4,8 +4,8 @@ export default `
   position: fixed;
   width: 36px;
   height: 30px;
-  left: 56px;
-  top: 56px;
+  left: 45px;
+  top: 45px;
 }
 
 /* Color/shape of burger icon bars */
@@ -72,9 +72,5 @@ Note: Beware of modifying this element as it can break the animations - you shou
 /* Styling of overlay */
 .bm-overlay {
   background: rgba(0, 0, 0, 0.3);
-}
-
-.bm-burger-bars {
-  height: height: 12%!important;
 }
 `;

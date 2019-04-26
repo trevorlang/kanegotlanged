@@ -3,8 +3,6 @@ import MEDIA from 'helpers/mediaTemplates';
 
 export const Text = styled.span`
   display: block;
-  font-weight: 100;
-  font-size: 3rem;
   line-height: 1.2;
   text-align: center;
   text-transform: uppercase;
@@ -12,8 +10,11 @@ export const Text = styled.span`
   margin: 0 -3em;
   margin-bottom: 3rem;
   color: #cfa562;
+  font-size: 1.35rem;
+  font-weight: 300;
 
-  ${MEDIA.TABLET`
-    font-size: 1.2rem;
+  ${MEDIA.MIN_TABLET`
+    font-size: 3rem;
+    font-weight: 100;
   `};
 `;
