@@ -14,7 +14,7 @@ export const Text = styled.span`
   font-weight: 300;
 
   ${MEDIA.MIN_TABLET`
-    font-size: 3rem;
+    font-size: 2.25rem;
     font-weight: 100;
   `};
 `;
