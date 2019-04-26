@@ -46,7 +46,9 @@ const Head = ({
 
       <meta content="website" property="og:type" />
       <meta content={siteTitle} property="og:site_name" />
-      {social.fbAppId && <meta content={social.fbAppId} property="fb:app_id" />}
+      {social.fbAppId && (
+        <meta content={social.fbAppId} property="fb:app_id" />
+      )}
       <meta content="summary_large_image" name="twitter:card" />
       {social.twitter && (
         <meta content={`@${social.twitter}`} name="twitter:site" />
@@ -59,7 +61,10 @@ const Head = ({
       <meta content={canonical} name="twitter:url" />
       <link rel="canonical" href={canonical} />
 
-      <meta content={imageUrl || `${siteUrl}/social.png`} property="og:image" />
+      <meta
+        content={imageUrl || `${siteUrl}/social.png`}
+        property="og:image"
+      />
       <meta content="1024" property="og:image:width" />
       <meta content="512" property="og:image:height" />
       <meta
@@ -68,7 +73,10 @@ const Head = ({
       />
       <meta content="1024" name="twitter:image:width" />
       <meta content="512" name="twitter:image:height" />
-      <meta content={imageUrl || `${siteUrl}/social.png`} property="og:image" />
+      <meta
+        content={imageUrl || `${siteUrl}/social.png`}
+        property="og:image"
+      />
       <meta content="1024" property="og:image:width" />
       <meta content="512" property="og:image:height" />
 

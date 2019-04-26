@@ -7,7 +7,7 @@ import Footer from 'components/footer';
 import GlobalStyle from 'global.css.js';
 import { Container } from './layout.css';
 
-const Layout = ({ data, children, location }) => (
+const Layout = ({ data, children, location }) => console.log(data) || (
   <div>
     <GlobalStyle />
     <Head />
