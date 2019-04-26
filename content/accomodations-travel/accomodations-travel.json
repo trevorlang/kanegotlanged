@@ -1,4 +1,5 @@
 {
     "title": "Accomodations & Travel",
-    "content": "content.md"
+    "hotelInfo": "hotelInfo.md",
+    "travelInfo": "travelInfo.md"
 }

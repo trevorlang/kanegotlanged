@@ -1,0 +1,1 @@
+Two room blocks have been reserved for the wedding, with both hotels approximately 10 minutes from the venue. Jackie & Trevor will be staying at the Holiday Inn, and the more party-prone are encouraged to do the same. The party will likely continue there well after the reception.

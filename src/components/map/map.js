@@ -1,11 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import GoogleMapReact from 'google-map-react';
-import { MapMarkerContainer, MapLoadingContainer } from './map.css';
-
-export const MapLoading = () => (
-  <MapLoadingContainer>Loading...</MapLoadingContainer>
-);
+import { MapMarkerContainer } from './map.css';
 
 const MapMarker = props => (
   <MapMarkerContainer hover={props.$hover}>
@@ -21,7 +17,7 @@ MapMarker.defaultProps = {
 MapMarker.propTypes = {
   $hover: PropTypes.bool,
   location: PropTypes.string.isRequired,
-  label: PropTypes.string.isRequired,
+  label: PropTypes.string,
 };
 
 class Map extends Component {
@@ -70,7 +66,7 @@ class Map extends Component {
 
     return (
       // Important! Always set the container height explicitly
-      <div style={{ height: '25rem', width: '100vw' }}>
+      <div style={{ height: '25rem', width: '100vw', marginTop: '2rem' }}>
         <GoogleMapReact
           bootstrapURLKeys={{
             key: `${process.env.GATSBY_MAPS_API_KEY}`,

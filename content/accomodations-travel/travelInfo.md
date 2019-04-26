@@ -1,0 +1,3 @@
+For those travelling from out of town, Dulles Internation Airport will likely be your best option. Transportation will be provided to and from both the Holiday Inn and Hampton Inn. We encourage anyone staying at either hotel to make use of the transportation so you are free to let loose... _\*cough\* open bar \*cough\*_
+
+We will update this page with a more information about the hotel transportation schedule as we get a bit closer to the big day.
