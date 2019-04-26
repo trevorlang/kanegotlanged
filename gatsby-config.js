@@ -26,6 +26,13 @@ module.exports = {
         path: path.join(__dirname, `src`, `images`),
       },
     },
+    {
+      resolve: `gatsby-plugin-google-tagmanager`,
+      options: {
+        id: 'GTM-WSN7RGV',
+        includeInDevelopment: true,
+      },
+    },
     'gatsby-plugin-sharp',
     'gatsby-transformer-sharp',
     {
