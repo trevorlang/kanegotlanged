@@ -37,11 +37,10 @@ export const Container = styled.div`
   }
 
   .booking {
-    max-width: 21rem;
+    max-width: 20rem;
     margin-top: 0.75rem;
     margin-bottom: 0;
     font-size: 0.825rem;
-    text-align: left;
   }
 
   .notes {

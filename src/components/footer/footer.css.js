@@ -16,4 +16,13 @@ export const Container = styled.footer`
     `
     display: none;
   `}
+
+  .copyright {
+    margin-top: 0.5rem;
+    margin-bottom: 0;
+    color: #fff;
+    font-size: 0.625rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+  }
 `;

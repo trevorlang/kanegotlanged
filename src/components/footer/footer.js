@@ -6,6 +6,7 @@ import Nav from 'components/footer/nav';
 const Footer = ({ location = {} }) => (
   <Container location={location}>
     <Nav />
+    <p className="copyright">&copy; {new Date().getFullYear()} Trevor Lang</p>
   </Container>
 );
 
