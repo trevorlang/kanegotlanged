@@ -13,7 +13,11 @@ export const Text = styled.span`
   font-weight: 300;
 
   ${MEDIA.MIN_TABLET`
+<<<<<<< HEAD
     font-size: 2.25rem;
+=======
+    font-size: 3rem;
+>>>>>>> Fixing horizontal scroll
     font-weight: 100;
   `};
 `;
