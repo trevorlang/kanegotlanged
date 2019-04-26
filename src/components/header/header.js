@@ -20,7 +20,7 @@ import Nav from 'components/header/nav';
 //   },
 // });
 
-const Header = ({title = '', location = {}}) => (
+const Header = ({ title = '', location = {} }) => (
   <Container location={location}>
     {location.pathname !== '/' && (
       <LogoLink to="/">
@@ -31,9 +31,13 @@ const Header = ({title = '', location = {}}) => (
   </Container>
 );
 
+Header.defaultProps = {
+  location: {},
+};
+
 Header.propTypes = {
   title: PropTypes.string.isRequired,
-  location: PropTypes.shape({}).isRequired,
+  location: PropTypes.shape({}),
 };
 
 export default Header;

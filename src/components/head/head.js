@@ -19,7 +19,7 @@ const Head = ({
 }) => {
   return (
     <Helmet>
-      <html lang="en" />
+      <html lang="en" className={pageTitle} />
 
       <meta content="IE=edge" httpEquiv="X-UA-Compatible" />
       <meta
