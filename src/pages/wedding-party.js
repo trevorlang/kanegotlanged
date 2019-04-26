@@ -1,22 +1,24 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Layout from 'components/layout';
-import Box from 'components/box';
 import Title from 'components/title';
+import WeddingPartyGallery from 'components/wedding-party-gallery';
 import { graphql } from 'gatsby';
+
+const returnImageData = node => ({
+  name: node.name,
+  url: node.publicURL,
+});
 
 const WeddingParty = ({ data }) => (
   <Layout>
-    <Box>
-      <Title as="h2" size="large">
-        {data.weddingPartyJson.title}
-      </Title>
-      <div
-        dangerouslySetInnerHTML={{
-          __html: data.weddingPartyJson.content.childMarkdownRemark.html,
-        }}
-      />
-    </Box>
+    <Title as="h2" size="large">
+      {data.weddingPartyJson.title}
+    </Title>
+    <WeddingPartyGallery
+      partyPeople={data.weddingPartyJson.partyPeople}
+      images={data.allFile.edges.map(edge => returnImageData(edge.node))}
+    />
   </Layout>
 );
 
@@ -34,6 +36,19 @@ export const query = graphql`
         childMarkdownRemark {
           html
           rawMarkdownBody
+        }
+      }
+      partyPeople {
+        name
+        role
+        imageName
+      }
+    }
+    allFile(filter:{absolutePath: {regex: "/(wedding-party)/.*\\.jpg$/"}}) {
+      edges {
+        node {
+          publicURL
+          name
         }
       }
     }

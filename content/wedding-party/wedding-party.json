@@ -1,4 +1,86 @@
 {
     "title": "Wedding Party",
-    "content": "content.md"
+    "content": "content.md",
+    "partyPeople": [
+        {
+            "name": "Sabrina Jess",
+            "role": "Maid of Honor",
+            "imageName": "sabrina"
+        },
+        {
+            "name": "Veronica Duckett",
+            "role": "Bridesmaid",
+            "imageName": "veronica"
+        },
+        {
+            "name": "Mary Anne Jeffers",
+            "role": "Bridesmaid",
+            "imageName": "mary-anne"
+        },
+        {
+            "name": "Lindsay Huyer",
+            "role": "Bridesmaid",
+            "imageName": "lindsay"
+        },
+        {
+            "name": "Sarah Kyger",
+            "role": "Bridesmaid",
+            "imageName": "sarah"
+        },
+        {
+            "name": "Abigayle Costis",
+            "role": "Bridesmaid",
+            "imageName": "abby"
+        },
+        {
+            "name": "Heather Yandziak",
+            "role": "Bridesmaid",
+            "imageName": "heather"
+        },
+                {
+            "name": "Janelle Gruber",
+            "role": "Bridesmaid",
+            "imageName": "janelle"
+        },
+        {
+            "name": "Carl Jeffers",
+            "role": "Best Man",
+            "imageName": "carl"
+        },
+        {
+            "name": "Anthony Suraci",
+            "role": "Groomsman",
+            "imageName": "anthony"
+        },
+        {
+            "name": "Shane Douress",
+            "role": "Groomsman",
+            "imageName": "shane"
+        },
+        {
+            "name": "Danny Girvin",
+            "role": "Groomsman",
+            "imageName": "danny"
+        },
+        {
+            "name": "Phil Hoegel",
+            "role": "Groomsman",
+            "imageName": "phil"
+        },
+        {
+            "name": "John Gray",
+            "role": "Groomsman",
+            "imageName": "john"
+        },
+        {
+            "name": "Trenton Lang",
+            "role": "Groomsman",
+            "imageName": "trent"
+        },
+        {
+            "name": "Jessica Lang",
+            "role": "Groomswoman",
+            "imageName": "jessica"
+        }
+    ]
 }

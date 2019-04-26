@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import GoogleMapReact from 'google-map-react';
 import { locations } from 'constants/locations';
 import { MapMarkerContainer } from './map.css';
@@ -11,6 +12,12 @@ const MapMarker = props => (
     <p className="title">{props.label}</p>
   </MapMarkerContainer>
 );
+
+MapMarker.propTypes = {
+  $hover: PropTypes.bool.isRequired,
+  location: PropTypes.string.isRequired,
+  label: PropTypes.string.isRequired,
+};
 
 class Map extends Component {
   static defaultProps = {
@@ -25,7 +32,7 @@ class Map extends Component {
     super(props);
   }
 
-  createMapOptions(maps) {
+  createMapOptions() {
     return {
       fullscreenControl: false,
       gestureHandling: 'cooperative',
@@ -72,5 +79,11 @@ class Map extends Component {
     );
   }
 }
+
+Map.propTypes = {
+  markers: PropTypes.array.isRequired,
+  center: PropTypes.object.isRequired,
+  zoom: PropTypes.number.isRequired,
+};
 
 export default Map;
