@@ -20,7 +20,7 @@ export const locations = {
     web:
       'https://www.ihg.com/holidayinn/hotels/us/en/front-royal/ftryl/hoteldetail',
     info:
-      'Call to book reservations. When you are making the reservation, please ask for the "Celebration Rate" (code ILXD7, if they ask for it), and the discount will be applied.',
+      'Call to book reservations. When you are making the reservation, please ask for the "Celebration Rate" (code ILXD7), and the discount will be applied.',
   },
   hamptonInn: {
     name: 'Hampton Inn Front Royal',
@@ -34,7 +34,7 @@ export const locations = {
     web:
       'https://hamptoninn3.hilton.com/en/hotels/virginia/hampton-inn-front-royal-FTRYLHX/index.html',
     info:
-      'Call the hotel directly, or click <a title="Hotel reservation" href="http://group.hamptoninn.com/Kane-LaneWedding">here</a> to book reservations. If you call to make the reservation, mention that it is for the Kane-Lang block of rooms,and the discount will be applied.',
+      'Call the hotel directly, or click <a title="Hotel reservation" href="http://group.hamptoninn.com/Kan-LangWedding">here</a> to book reservations. If you call to make the reservation, mention that it is for the Kane-Lang block of rooms, and the discount will be applied.',
   },
   airport: {
     name: 'Dulles International Airport',

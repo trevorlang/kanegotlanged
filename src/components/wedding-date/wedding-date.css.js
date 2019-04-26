@@ -10,22 +10,26 @@ export const Container = styled.div`
     padding: 0;
   }
 
-  span {
-    display: block;
-  }
-
   .date {
+    display: block;
     font-weight: 700;
     font-size: 1.5rem;
   }
 
   .time {
+    display: block;
     font-weight: 700;
     font-size: 1.5rem;
   }
 
   .reception {
+    display: block;
     font-weight: 300;
     font-style: italic;
+  }
+
+  .m {
+    text-transform: uppercase;
+    font-size: 1rem;
   }
 `;

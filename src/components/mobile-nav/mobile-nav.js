@@ -39,8 +39,8 @@ class MobileNav extends Component {
         <Link to="/wedding-party" onClick={this.handleCloseMenu}>
           Wedding Party
         </Link>
-        <Link to="/accomodations-travel" onClick={this.handleCloseMenu}>
-          Accomodations &amp; Travel
+        <Link to="/accommodations-travel" onClick={this.handleCloseMenu}>
+          Accommodations &amp; Travel
         </Link>
         <Link to="/registry" onClick={this.handleCloseMenu}>
           Registry
