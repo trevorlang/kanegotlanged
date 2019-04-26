@@ -1,4 +1,4 @@
-import React, { Suspense } from 'react';
+import React from 'react';
 import PropTypes from 'prop-types';
 import BoxSplit from 'components/box-split';
 import BoxSplitWrap from 'components/box-split-wrap';

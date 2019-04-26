@@ -17,9 +17,14 @@ const Layout = ({ data, children, location }) => (
   </div>
 );
 
+Layout.defaultProps = {
+  location: {},
+};
+
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
   data: PropTypes.object.isRequired,
+  location: PropTypes.shape({}),
 };
 
 const LayoutWithQuery = props => (
