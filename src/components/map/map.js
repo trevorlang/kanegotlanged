@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import GoogleMapReact from 'google-map-react';
-import { locations } from 'constants/locations';
-import { MapMarkerContainer } from './map.css';
+import { MapMarkerContainer, MapLoadingContainer } from './map.css';
 
-const { venue } = locations;
+export const MapLoading = () => (
+  <MapLoadingContainer>Loading...</MapLoadingContainer>
+);
 
 const MapMarker = props => (
   <MapMarkerContainer hover={props.$hover}>
@@ -13,8 +14,12 @@ const MapMarker = props => (
   </MapMarkerContainer>
 );
 
+MapMarker.defaultProps = {
+  $hover: false,
+};
+
 MapMarker.propTypes = {
-  $hover: PropTypes.bool.isRequired,
+  $hover: PropTypes.bool,
   location: PropTypes.string.isRequired,
   label: PropTypes.string.isRequired,
 };
@@ -22,10 +27,11 @@ MapMarker.propTypes = {
 class Map extends Component {
   static defaultProps = {
     center: {
-      lat: venue.location.lat,
-      lng: venue.location.lng,
+      lat: 0,
+      lng: 0,
     },
-    zoom: 11,
+    zoom: 0,
+    markers: [],
   };
 
   constructor(props) {

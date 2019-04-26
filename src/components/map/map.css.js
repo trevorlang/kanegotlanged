@@ -51,3 +51,9 @@ export const MapMarkerContainer = styled.div`
     padding: 0;
   }
 `;
+
+export const MapLoadingContainer = styled.div`
+  height: 25rem;
+  width: 100vw;
+  background-color: #e3d8ec;
+`;

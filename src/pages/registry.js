@@ -11,11 +11,11 @@ const Registry = ({ data }) => (
       <Title as="h2" size="large">
         {data.registryJson.title}
       </Title>
-      <div
+      {/* <div
         dangerouslySetInnerHTML={{
           __html: data.registryJson.content.childMarkdownRemark.html,
         }}
-      />
+      /> */}
     </Box>
   </Layout>
 );

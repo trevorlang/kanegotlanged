@@ -11,11 +11,11 @@ const AccomodationsTravel = ({ data }) => (
       <Title as="h2" size="large">
         {data.accomodationsTravelJson.title}
       </Title>
-      <div
+      {/* <div
         dangerouslySetInnerHTML={{
           __html: data.accomodationsTravelJson.content.childMarkdownRemark.html,
         }}
-      />
+      /> */}
     </Box>
   </Layout>
 );
