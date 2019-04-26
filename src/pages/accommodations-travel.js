@@ -19,17 +19,17 @@ const insertLineBreak = (string, indexOfBreak) => {
   return split.join(' ');
 };
 
-const AccomodationsTravel = ({ data }) => (
+const accommodationsTravel = ({ data }) => (
   <Layout>
     <Title as="h2" size="large">
-      {data.accomodationsTravelJson.title}
+      {data.accommodationsTravelJson.title}
     </Title>
     <Box>
       <h3>Hotel Information</h3>
       <div
         dangerouslySetInnerHTML={{
           __html:
-            data.accomodationsTravelJson.hotelInfo.childMarkdownRemark.html,
+            data.accommodationsTravelJson.hotelInfo.childMarkdownRemark.html,
         }}
       />
     </Box>
@@ -62,7 +62,7 @@ const AccomodationsTravel = ({ data }) => (
       <div
         dangerouslySetInnerHTML={{
           __html:
-            data.accomodationsTravelJson.travelInfo.childMarkdownRemark.html,
+            data.accommodationsTravelJson.travelInfo.childMarkdownRemark.html,
         }}
       />
       <Airport
@@ -103,15 +103,15 @@ const AccomodationsTravel = ({ data }) => (
   </Layout>
 );
 
-AccomodationsTravel.propTypes = {
+accommodationsTravel.propTypes = {
   data: PropTypes.object.isRequired,
 };
 
-export default AccomodationsTravel;
+export default accommodationsTravel;
 
 export const query = graphql`
-  query AccomodationsTravelQuery {
-    accomodationsTravelJson {
+  query accommodationsTravelQuery {
+    accommodationsTravelJson {
       title
       hotelInfo {
         childMarkdownRemark {
