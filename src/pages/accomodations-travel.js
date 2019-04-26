@@ -3,35 +3,32 @@ import PropTypes from 'prop-types';
 import Layout from 'components/layout';
 import Box from 'components/box';
 import Title from 'components/title';
-import Copy from 'components/copy';
 import { graphql } from 'gatsby';
 
-const OurStory = ({ data }) => (
+const AccomodationsTravel = ({ data }) => (
   <Layout>
     <Box>
       <Title as="h2" size="large">
-        {data.ourStoryJson.title}
+        {data.accomodationsTravelJson.title}
       </Title>
-      <Copy>
-        <div
-          dangerouslySetInnerHTML={{
-            __html: data.ourStoryJson.content.childMarkdownRemark.html,
-          }}
-        />
-      </Copy>
+      <div
+        dangerouslySetInnerHTML={{
+          __html: data.accomodationsTravelJson.content.childMarkdownRemark.html,
+        }}
+      />
     </Box>
   </Layout>
 );
 
-OurStory.propTypes = {
+AccomodationsTravel.propTypes = {
   data: PropTypes.object.isRequired,
 };
 
-export default OurStory;
+export default AccomodationsTravel;
 
 export const query = graphql`
-  query OurStoryQuery {
-    ourStoryJson {
+  query AccomodationsTravelQuery {
+    accomodationsTravelJson {
       title
       content {
         childMarkdownRemark {

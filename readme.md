@@ -1,4 +1,8 @@
-<p align="center">
+# KaneGotLanged
+
+A pretty spiffy wedding website built with Gatsby.js
+
+<!-- <p align="center">
   <a href="https://github.com/fabe/gatsby-universal">
     <img
       src="https://i.imgur.com/MFWrZSx.png"
@@ -161,4 +165,4 @@ module.exports = {
 
 ## Author
 
-* Fabian Schultz ([@fschultz_](https://twitter.com/fschultz_)) - [Stink Studios](https://stinkstudios.com)
+* Fabian Schultz ([@fschultz_](https://twitter.com/fschultz_)) - [Stink Studios](https://stinkstudios.com) -->

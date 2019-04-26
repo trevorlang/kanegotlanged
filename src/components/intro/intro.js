@@ -1,9 +1,16 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Container, PrimaryTop, PrimaryBottom, Secondary } from './intro.css';
+import {
+  Container,
+  InnerContainer,
+  PrimaryTop,
+  PrimaryBottom,
+  Secondary,
+} from './intro.css';
 
 const Intro = ({ primary, secondary }) => (
   <Container>
+    <InnerContainer />
     <h2>
       <PrimaryTop>
         <span>{primary}</span>

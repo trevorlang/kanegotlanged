@@ -1,11 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Layout from 'components/layout';
-import Box from 'components/box';
+//import Box from 'components/box';
 import Intro from 'components/intro';
-import Gallery from 'components/gallery';
-import IOExample from 'components/io-example';
-import Modal from 'containers/modal';
+//import Gallery from 'components/gallery';
+//import IOExample from 'components/io-example';
+//import Modal from 'containers/modal';
 import { graphql } from 'gatsby';
 
 const Index = ({ data, location }) => (

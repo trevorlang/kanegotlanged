@@ -11,8 +11,20 @@ export const Container = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  background-color: #3b254c;
   background-image: url(${img});
   z-index: -1;
+`;
+
+export const InnerContainer = styled.span`
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: 1.75rem;
+  border: 3px solid #cfa562;
+  z-index: 1;
 `;
 
 export const PrimaryTop = styled.span`
