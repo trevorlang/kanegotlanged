@@ -7,4 +7,6 @@ export const Container = styled.div`
   bottom: 0;
   right: 0;
   z-index: 1;
+  overflow: hidden;
+  overflow-y: scroll;
 `;
