@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const MapMarkerContainer = styled.div`
-  min-width: 12rem;
+  min-width: 8rem;
   position: absolute;
   transform: translate(-50%, calc(-100% - 10px));
   border-radius: 3px;
@@ -9,6 +9,7 @@ export const MapMarkerContainer = styled.div`
   text-align: center;
   border: 1px solid #432954;
   color: #fff;
+  font-size: 0.625rem;
   font-family: 'Montserrat', sans-serif;
   background-color: ${props => {
     return props.hover ? '#612c78' : '#612c78';

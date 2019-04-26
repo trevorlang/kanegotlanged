@@ -9,8 +9,10 @@ import WeddingInfo from 'components/wedding-info';
 import Map from 'components/map';
 import { graphql } from 'gatsby';
 import { locations } from 'constants/locations';
+import { events } from 'constants/events';
 
 const { venue, airport } = locations;
+const { reception } = events;
 
 const WeddingDetails = ({ data }) => (
   <Layout>
@@ -21,19 +23,22 @@ const WeddingDetails = ({ data }) => (
       <BoxSplit>
         <WeddingDate>
           <p>
-            <span className="date">Friday, November 1, 2019</span>
-            <span className="time">4:00 PM</span>
-            <span className="reception">Reception to follow</span>
+            <span className="date">{reception.date}</span>
+            <span className="time">
+              {reception.time.hour}{' '}
+              <span className="m">{reception.time.m}</span>
+            </span>
+            <span className="reception">{reception.meta.note}</span>
           </p>
         </WeddingDate>
       </BoxSplit>
       <BoxSplit>
         <WeddingInfo>
           <p>
-            <span className="location">Shenandoah Valley Golf Club</span>
-            <span>134 Golf Club Circle</span>
-            <span>Front Royal, VA 22630</span>
-            <span>Ceremony: Outdoor, weather permitting</span>
+            <span className="location">{venue.name}</span>
+            <span>{venue.addressLineOne}</span>
+            <span>{venue.addressLineTwo}</span>
+            <span>Ceremony: Outdoor (weather permitting)</span>
             <span>Attire: Cocktail Attire</span>
           </p>
         </WeddingInfo>
