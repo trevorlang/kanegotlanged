@@ -6,11 +6,9 @@ import Layout from 'components/layout';
 import Title from 'components/title';
 import WeddingDate from 'components/wedding-date';
 import WeddingInfo from 'components/wedding-info';
-import MapLoading from 'components/map';
+import Map from 'components/map';
 import { graphql } from 'gatsby';
 import { locations } from 'constants/locations';
-
-const Map = React.lazy(() => import('components/map'));
 
 const { venue, airport } = locations;
 
@@ -41,29 +39,27 @@ const WeddingDetails = ({ data }) => (
         </WeddingInfo>
       </BoxSplit>
     </BoxSplitWrap>
-    <Suspense fallback={<MapLoading />}>
-      <Map
-        center={{
-          lat: 38.967026,
-          lng: -77.8172021,
-        }}
-        zoom={9}
-        markers={[
-          {
-            lat: venue.location.lat,
-            lng: venue.location.lng,
-            location: venue.name,
-            label: 'Wedding Venue',
-          },
-          {
-            lat: airport.location.lat,
-            lng: airport.location.lng,
-            location: airport.name,
-            label: 'Nearest Airport',
-          },
-        ]}
-      />
-    </Suspense>
+    <Map
+      center={{
+        lat: 38.967026,
+        lng: -77.8172021,
+      }}
+      zoom={9}
+      markers={[
+        {
+          lat: venue.location.lat,
+          lng: venue.location.lng,
+          location: venue.name,
+          label: 'Wedding Venue',
+        },
+        {
+          lat: airport.location.lat,
+          lng: airport.location.lng,
+          location: airport.name,
+          label: 'Nearest Airport',
+        },
+      ]}
+    />
   </Layout>
 );
 

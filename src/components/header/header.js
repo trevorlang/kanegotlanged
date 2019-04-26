@@ -20,7 +20,7 @@ import Nav from 'components/header/nav';
 //   },
 // });
 
-const Header = ({ title, location }) => (
+const Header = ({title = '', location = {}}) => (
   <Container location={location}>
     {location.pathname !== '/' && (
       <LogoLink to="/">

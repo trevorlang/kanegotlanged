@@ -6,7 +6,7 @@ import Header from 'components/header';
 import GlobalStyle from 'global.css.js';
 import { Container } from './layout.css';
 
-const Layout = ({ data, children }) => (
+const Layout = ({ data, children, location }) => (
   <div>
     <GlobalStyle />
     <Head />
