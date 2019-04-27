@@ -150,6 +150,7 @@ class Slider extends Component {
           infiniteLoop={true}
           showIndicators={false}
           showStatus={false}
+          swipeable={false}
         >
           {carouselImages}
         </Carousel>
