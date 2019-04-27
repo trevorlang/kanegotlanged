@@ -7,6 +7,7 @@ import Copy from 'components/copy';
 import { graphql } from 'gatsby';
 import { Carousel } from 'react-responsive-carousel';
 import styled from 'styled-components';
+import ie from 'ie-version';
 
 let ie = null;
 
