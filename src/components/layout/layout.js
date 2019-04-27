@@ -12,7 +12,10 @@ const Layout = ({ data, children, location }) => (
     <GlobalStyle />
     <Head />
     <Container>
-      <Header title={data.site.siteMetadata.siteTitle} location={location} />
+      <Header
+        title={data.site.siteMetadata.siteTitleShort}
+        location={location}
+      />
       {children}
       {location.pathname !== '/' && <Footer />}
     </Container>
@@ -36,6 +39,7 @@ const LayoutWithQuery = props => (
         site {
           siteMetadata {
             siteTitle
+            siteTitleShort
           }
         }
       }
