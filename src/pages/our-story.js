@@ -133,7 +133,9 @@ class Slider extends Component {
       </div>
     ));
 
-    if (ie) return null;
+    console.warn('ie', ie)
+
+    if (ie.version) return null;
 
     return (
       <Container>
