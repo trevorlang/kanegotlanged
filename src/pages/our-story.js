@@ -93,10 +93,12 @@ class Slider extends Component {
   }
 
   getWindowWidth() {
-    return Math.max(
-      document.documentElement.clientWidth,
-      window.innerWidth || 0
-    );
+    if (typeof window !== 'undefined') {
+      return Math.max(
+        document.documentElement.clientWidth,
+        window.innerWidth || 0
+      );
+    }
   }
 
   onResize() {
@@ -114,11 +116,13 @@ class Slider extends Component {
   }
 
   componentDidMount() {
-    window.addEventListener('resize', this.onResize);
+    if (typeof window !== 'undefined')
+      window.addEventListener('resize', this.onResize);
   }
 
   componentWillUnmount() {
-    window.removeEventListener('resize', this.onResize);
+    if (typeof window !== 'undefined')
+      window.removeEventListener('resize', this.onResize);
   }
 
   render() {
