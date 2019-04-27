@@ -7,7 +7,12 @@ import Copy from 'components/copy';
 import { graphql } from 'gatsby';
 import { Carousel } from 'react-responsive-carousel';
 import styled from 'styled-components';
-import ie from 'ie-version';
+
+let ie = null;
+
+if (typeof window !== 'undefined') {
+  ie = require('ie-version');
+}
 
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 
@@ -132,10 +137,9 @@ class Slider extends Component {
         <img src={image.path} alt={image.alt} />
       </div>
     ));
+    
 
-    console.warn('ie', ie)
-
-    if (ie.version) return null;
+    if (ie && ie.version) return null;
 
     return (
       <Container>
