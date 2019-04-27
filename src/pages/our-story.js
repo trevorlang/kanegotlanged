@@ -7,6 +7,7 @@ import Copy from 'components/copy';
 import { graphql } from 'gatsby';
 import { Carousel } from 'react-responsive-carousel';
 import styled from 'styled-components';
+import ie from 'ie-version';
 
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 
@@ -131,6 +132,9 @@ class Slider extends Component {
         <img src={image.path} alt={image.alt} />
       </div>
     ));
+
+    if (ie) return null;
+
     return (
       <Container>
         <Carousel
@@ -141,6 +145,7 @@ class Slider extends Component {
           showIndicators={false}
           showStatus={false}
           swipeable={true}
+          swipeScrollTolerance={100}
         >
           {carouselImages}
         </Carousel>
