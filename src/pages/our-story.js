@@ -137,7 +137,6 @@ class Slider extends Component {
         <img src={image.path} alt={image.alt} />
       </div>
     ));
-    
 
     if (ie && ie.version) return null;
 
