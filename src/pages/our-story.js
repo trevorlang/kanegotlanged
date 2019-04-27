@@ -7,7 +7,12 @@ import Copy from 'components/copy';
 import { graphql } from 'gatsby';
 import { Carousel } from 'react-responsive-carousel';
 import styled from 'styled-components';
-import ie from 'ie-version';
+
+let ie = null;
+
+if (typeof window !== 'undefined') {
+  ie = require('ie-version');
+}
 
 let ie = null;
 
@@ -138,7 +143,9 @@ class Slider extends Component {
         <img src={image.path} alt={image.alt} />
       </div>
     ));
+    
 
+<<<<<<< HEAD
 <<<<<<< HEAD
     if (ie && ie.version) return null;
 =======
@@ -146,6 +153,9 @@ class Slider extends Component {
 
     if (ie.version) return null;
 >>>>>>> IE conditional
+=======
+    if (ie && ie.version) return null;
+>>>>>>> IE stuff
 
     return (
       <Container>
