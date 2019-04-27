@@ -7,7 +7,6 @@ export const Text = styled.span`
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 0.05em
-  margin: 0 -3em;
   margin-bottom: 3rem;
   color: #cfa562;
   font-size: 1.35rem;
