@@ -1,1 +1,1 @@
-We're so happy that you will be able to join us on our big day, and that's all we could ever ask for. For those who have expressed interest in marking the day with a special gift, we have registered at Bed Bath and Beyond, as well as REI. Click the logos below to view the gift registries.
+We're so happy that you will be able to join us on our big day, and that's all we could ever ask for. For those who have expressed interest in marking the day with a special gift, we have registered at Bed Bath & Beyond, as well as REI. Click the logos below to view the gift registries.

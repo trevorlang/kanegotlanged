@@ -1,6 +1,6 @@
 export const locations = {
   venue: {
-    name: 'Shannandoah Valley Golf Club',
+    name: 'Shenandoah Valley Golf Club',
     addressLineOne: '134 Golf Club Circle',
     addressLineTwo: 'Front Royal, VA 22630',
     location: {
