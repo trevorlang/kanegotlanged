@@ -14,12 +14,6 @@ if (typeof window !== 'undefined') {
   ie = require('ie-version');
 }
 
-let ie = null;
-
-if (typeof window !== 'undefined') {
-  ie = require('ie-version');
-}
-
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 
 const ImageContainer = styled.img`

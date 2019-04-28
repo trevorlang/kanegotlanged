@@ -7839,6 +7839,11 @@ ie-version@^0.1.0:
   resolved "https://registry.yarnpkg.com/ie-version/-/ie-version-0.1.0.tgz#9a05a6865ce4f8440a36bae52b40fcfc2798d6da"
   integrity sha1-mgWmhlzk+EQKNrrlK0D8/CeY1to=
 
+ie-version@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/ie-version/-/ie-version-0.1.0.tgz#9a05a6865ce4f8440a36bae52b40fcfc2798d6da"
+  integrity sha1-mgWmhlzk+EQKNrrlK0D8/CeY1to=
+
 ieee754@^1.1.4:
   version "1.1.13"
   resolved "https://registry.yarnpkg.com/ieee754/-/ieee754-1.1.13.tgz#ec168558e95aa181fd87d37f55c32bbcb6708b84"
@@ -12533,6 +12538,13 @@ react-dom@^16.7.0:
     object-assign "^4.1.1"
     prop-types "^15.6.2"
     scheduler "^0.13.6"
+
+react-easy-swipe@^0.0.16:
+  version "0.0.16"
+  resolved "https://registry.yarnpkg.com/react-easy-swipe/-/react-easy-swipe-0.0.16.tgz#5a3d949a8f975d05be92a818254315d1318a81ea"
+  integrity sha1-Wj2Umo+XXQW+kqgYJUMV0TGKgeo=
+  dependencies:
+    prop-types "^15.5.8"
 
 react-easy-swipe@^0.0.16:
   version "0.0.16"
