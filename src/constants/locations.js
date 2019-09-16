@@ -37,7 +37,7 @@ export const locations = {
       'Call the hotel directly, or click <a title="Hotel reservation" href="http://group.hamptoninn.com/KaneLangWedding">here</a> to book reservations. If you call to make the reservation, mention that it is for the Kane-Lang block of rooms, and the discount will be applied.',
   },
   airport: {
-    name: 'Dulles International Airport',
+    name: 'Washington Dulles International',
     addressLineOne: '1 Saarinen Cir',
     addressLineTwo: 'Dulles, VA 20166',
     location: {

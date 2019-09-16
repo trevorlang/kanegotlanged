@@ -3,11 +3,11 @@ export const events = {
     name: 'Reception',
     date: 'Friday, November 1, 2019',
     time: {
-      hour: '4:00',
+      hour: '4:30',
       m: 'pm',
     },
     meta: {
-      note: 'Reception to follow',
+      note: 'Dinner and dancing to follow',
     },
   },
 };

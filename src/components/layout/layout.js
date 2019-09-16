@@ -29,7 +29,9 @@ Layout.defaultProps = {
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
   data: PropTypes.object.isRequired,
-  location: PropTypes.shape({}),
+  location: PropTypes.shape({
+    pathname: PropTypes.string.isRequired,
+  }),
 };
 
 const LayoutWithQuery = props => (

@@ -37,7 +37,9 @@ Header.defaultProps = {
 
 Header.propTypes = {
   title: PropTypes.string.isRequired,
-  location: PropTypes.shape({}),
+  location: PropTypes.shape({
+    pathname: PropTypes.string.isRequired,
+  }),
 };
 
 export default Header;

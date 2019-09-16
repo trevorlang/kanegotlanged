@@ -18,4 +18,8 @@ export const Container = styled.div`
     letter-spacing: 0.06em;
     color: #412b51;
   }
+
+  ul {
+    list-style-type: disc;
+  }
 `;

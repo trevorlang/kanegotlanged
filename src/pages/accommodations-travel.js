@@ -58,7 +58,6 @@ const accommodationsTravel = ({ data }) => (
       </BoxSplit>
     </BoxSplitWrap>
     <Box pushTop={true}>
-      <h3>Travel Information</h3>
       <div
         dangerouslySetInnerHTML={{
           __html:
