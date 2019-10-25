@@ -14,6 +14,7 @@ export const Container = styled.div`
   background-color: #3b254c;
   background-image: url(${img});
   background-position: center center;
+  background-size: cover;
   z-index: -1;
 `;
 
