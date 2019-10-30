@@ -9,14 +9,14 @@ On the big day, transportation to and from the venue will be available to and fr
 <div class="pickup-time">
   <div class="pickup-time__section">
     <h5 class="pickup-time__heading">Pre-wedding</h5>
-    <p class="pickup-time__meta">Holiday Inn to Shenandoah Valley Front Royal Blue Ridge Shadows</p>
+    <p class="pickup-time__meta">Holiday Inn to Shenandoah Valley Golf Club</p>
     Pickup Time #1: 3:45 PM<br>
     Pickup Time #2: 4:10 PM
   </div>
 
   <div class="pickup-time__section">
     <h5 class="pickup-time__heading">Post-Wedding</h5>
-    <p class="pickup-time__meta">Shenandoah Valley to Holiday Inn Front Royal Blue Ridge Shadows</p>
+    <p class="pickup-time__meta">Shenandoah Valley Golf Club to Holiday Inn</p>
     Pickup Time #1: 10:30 PM<br>
     Pickup Time #2: 10:55 PM 
   </div>

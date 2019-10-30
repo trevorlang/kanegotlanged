@@ -57,7 +57,7 @@ export const Container = styled.div`
       color: #776284;
       font-style: italic;
       font-weight: bold;
-      font-family: 'Crimson Text','Georgia',serif;
+      font-family: 'Crimson Text', 'Georgia', serif;
       font-size: 0.85rem;
     }
 

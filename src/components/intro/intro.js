@@ -24,7 +24,7 @@ const Intro = ({ primary, secondary }) => (
       November 1, 2019 <span className="bullet">&bull;</span> Front Royal,
       Virginia
     </Secondary>
-    <Timer date={new Date('November 1, 2019')} />
+    <Timer date={new Date('November 1, 2019 16:30:00')} />
   </Container>
 );
 
