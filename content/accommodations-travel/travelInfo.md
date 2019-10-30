@@ -1,5 +1,5 @@
 ### Things to do
-There's plenty to do around Front Royal if you have time while you're in town. Some of our favorites near by include Blue Ridge Shadows Golf Club, Charlestown Casino, Fox Meadows Winery, Front Royal Brewing, Shenandoah River State Park, Skyline Drive, and Luray Caverns.
+There's plenty to do around Front Royal if you have time while you're in town. Some of our favorites nearby include Blue Ridge Shadows Golf Club, Charlestown Casino, Fox Meadows Winery, Front Royal Brewing, Shenandoah River State Park, Skyline Drive, and Luray Caverns.
 
 ### Venue Transportation
 On the big day, transportation to and from the venue will be available to and from the Holiday Inn Hotel & Suites Front Royal Blue Ridge Shadows. We encourage everyone staying the night to make use of the transportation so you are free to let loose...<br> _\*cough\* open bar \*cough\*_.
